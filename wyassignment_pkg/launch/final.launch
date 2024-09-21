@@ -1,0 +1,4 @@
+<launch>
+  <node name="talker" pkg="wyassignment_pkg" type="input" output="screen" />
+  <node name="listener" pkg="wyassignment_pkg" type="output" output="screen" />
+</launch>
