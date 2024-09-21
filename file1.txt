@@ -3,4 +3,11 @@ my name is Skywalker
 i believe in the way of Sith
 i haven't watched Star Wars  --by xtz206
 i haven't watched Star Wars too --by MonkyIQDown241
+<<<<<<< HEAD
 Watch Star Wars for the rest of mmy life
+=======
+Identity V, activated! -- mjh
+hello --by myrmecos 
+Stained with Splatoon, your life is over! -- Florence_H
+
+>>>>>>> c7839484fb2ca06243c763d7573a1ef6a2a22562
