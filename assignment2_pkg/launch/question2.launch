@@ -1,7 +1,0 @@
-<launch>
-    <!-- Set the TurtleBOt3 model, a compulsory environmental variable somehow needed to be set manually -->
-    <!-- Launch the Gazebo world -->
-    <include file="/opt/ros/noetic/share/turtlebot3_gazebo/launch/turtlebot3_world.launch"/>
-    <!-- <node pkg="your_package" type="your_node" name="your_node_name" output="screen"/> -->
-    <node pkg="assignment2_pkg" type="points.py" name="points" output="screen"/>
-</launch>
