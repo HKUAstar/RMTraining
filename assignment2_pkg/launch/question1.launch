@@ -1,0 +1,5 @@
+<launch>
+    <!-- <node pkg="your_package" type="your_node" name="your_node_name" output="screen"/> -->
+    <node pkg="assignment2_pkg" type="reader.py" name="reader" output="screen"/>
+    <node pkg="assignment2_pkg" type="sum.py" name="sum" output="screen"/>
+</launch>
