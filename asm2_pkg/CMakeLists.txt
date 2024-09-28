@@ -123,7 +123,8 @@ add_executable(asm2_talker src/asm2_talker.cpp)
 target_link_libraries(asm2_talker ${catkin_LIBRARIES})
 add_executable(asm2_listener src/asm2_listenr.cpp)
 target_link_libraries(asm2_listener ${catkin_LIBRARIES})
-
+add_executable(sensor_handler src/sensor.cpp)
+target_link_libraries(sensor_handler ${catkin_LIBRARIES})
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}

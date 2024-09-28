@@ -5,7 +5,7 @@
 #include <stdio.h>
 int main(int argc, char **argv)
 {
-ros::init(argc, argv, "talker");
+ros::init(argc, argv, "talker"); //node name:talker
 ros::NodeHandle n;
 ros::Publisher asm2_pub = n.advertise<std_msgs::Int32MultiArray>("asm2", 1000);
 ros::Rate loop_rate(10);
