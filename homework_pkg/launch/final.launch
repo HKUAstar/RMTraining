@@ -1,0 +1,5 @@
+<launch>
+  <node name="talker" pkg="homework_pkg" type="talker" output="screen" />
+  <node name="listener" pkg="homework_pkg" type="listener" output="screen" />
+</launch>
+
