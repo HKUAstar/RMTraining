@@ -1,0 +1,4 @@
+
+Adjusting the parameters(finding the proper bond for BGR) is so frocking hard...
+
+Copilot really saved my life!!!

@@ -1,0 +1,24 @@
+min_red_for_red1 : 120
+min_green_for_red1 : 120
+min_blue_for_red1 : 0
+
+max_red_for_red1 : 255
+max_green_for_red1 : 255
+max_blue_for_red1 : 1
+
+min_red_for_red2 : 120
+min_green_for_red2 : 120
+min_blue_for_red2: 160
+
+max_red_for_red2 : 255
+max_green_for_red2 : 255
+max_blue_for_red2 : 180
+
+min_red_for_yellow : 100
+min_green_for_yellow : 100
+min_blue_for_yellow : 29
+
+max_red_for_yellow : 255
+max_green_for_yellow : 255
+max_blue_for_yellow : 75
+# Add your own parameters below
