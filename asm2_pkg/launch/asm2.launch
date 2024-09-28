@@ -1,0 +1,2 @@
+<launch>
+  <node name="talker" pkg="asm2_pkg" type="asm2_talker" output="screen" />       <node name="listener" pkg="asm2_pkg" type="asm2_listener" output="screen" /> </launch>        
