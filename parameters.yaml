@@ -1,0 +1,5 @@
+min_red: [180, 0, 0]
+max_red: [255, 120, 120]
+min_yellow: [20, 0, 200]
+max_yellow: [100, 255, 255]
+# Add your own parameters below
