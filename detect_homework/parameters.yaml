@@ -1,0 +1,6 @@
+red_lower1: [0, 120, 70]
+red_upper1: [10, 255, 255]
+red_lower2: [170, 120, 70]
+red_upper2: [180, 255, 255]
+yellow_lower: [20, 100, 100]
+yellow_upper: [30, 255, 255]
