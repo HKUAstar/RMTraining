@@ -1,3 +1,11 @@
+## 如何找到我上交的作业
+- 整个branch是第一节课的作业
+- ROS tutorial： assignment2_pkg (folder)
+- OpenCV tutorial： OpenCV_assignment (folder)
+- ML tutorial： ML_Tutorial_Colab.pdf
+
+
+
 ## 作业
 0. git clone这个仓库到本地
 1. 创建一个以你的名字命名的分支
