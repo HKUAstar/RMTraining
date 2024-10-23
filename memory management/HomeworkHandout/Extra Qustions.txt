@@ -1,0 +1,17 @@
+Question 1
+
+It's more efficient without Copy and Swap idiom.
+
+Because following copy-and-swap idiom, we have to create an new object "str_" which is a total waste. For the traditional method, especially the rvalue one, we directly use the formal address as the new address, which saves a lot of time.
+
+Question 2
+
+We used 32 threads so theoretically it should speed up 32 times. However it's approximately 4.2 times speed-up.
+
+The reason might be the size difference between clusters. The threads in charge of the small clusters have to stop and wait for the that of the big ones.
+
+Another reason might be that my i7-13700H only have 14 cores and 20 threads. I changed the number of threads into 16 and it's still 3.8 times speed-up. When it comes to 8, it's only 2.7 times speed-up.
+
+Question 3
+
+I built 37 buckets and lock them independently. It's about 5 to 7 times faster.
