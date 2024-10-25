@@ -1,0 +1,19 @@
+1: 
+Copy and swap idiom create a temporary object and swap the content of the temporary object with the current object.
+copy and swap is less efficient than move operation, because it creates a temporary object. The temporary object will be destroyed after the swap
+The move operation directly moves the content of the temporary object to the current object by reassigning the pointer.
+so it does not need to create a copy of content of the object
+
+2:
+32 threads, it should be 32 times faster but actual speed up is 4.xxx. I monitor my cpu when running the unit test,
+it is occupied at a high rate, so i think 32 threads is too many for cpu to run in same time. also, operations like 
+creating threads and destorying threads, use of mutex in barrier will reduce the efficiency.
+
+3:
+I used a combination of concept of lock granularity and Read-Write Lock,
+which reduce the granularity and allowed reading data at same time(shared_lock) but write at one time(unique_lock)
+the performance is:
+SafeHashmap read performance: 196ms
+FastSafeHashmap read performance: 35ms
+SafeHashmap write performance: 134ms
+FastSafeHashmap write performance: 76ms
