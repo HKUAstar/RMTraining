@@ -1,0 +1,1 @@
+/usr/bin/c++  -fsanitize=undefined,address,leak -g CMakeFiles/safe_hashmap.dir/safe_hashmap.cpp.o CMakeFiles/safe_hashmap.dir/unittest.cpp.o -o safe_hashmap  ../../lib/libgtest_main.a ../../lib/libgtest.a 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -fsanitize=undefined,address,leak -g CMakeFiles/custom_barrier.dir/custom_barrier.cpp.o CMakeFiles/custom_barrier.dir/unittest.cpp.o CMakeFiles/custom_barrier.dir/kmeans.cpp.o -o custom_barrier  ../../lib/libgtest_main.a ../../lib/libgtest.a 
