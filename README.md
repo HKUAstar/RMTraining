@@ -3,7 +3,7 @@
 - ROS tutorial： assignment2_pkg (folder)
 - OpenCV tutorial： OpenCV_assignment (folder)
 - ML tutorial： ML_Tutorial_Colab.pdf
-
+- Resource Management & Optimization tutorial: Assignment_resource_management (folder)
 
 
 ## 作业
