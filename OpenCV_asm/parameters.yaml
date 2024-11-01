@@ -1,0 +1,23 @@
+min_red: 0
+max_blue: 0
+max_green: 0
+# Add your own parameters below
+
+low_hue_red_lower: [0, 100, 100] 
+low_hue_red_upper: [10, 255, 255]
+
+high_hue_red_lower: [170, 100, 100] 
+high_hue_red_upper: [179, 255, 255]
+
+hue_yellow_lower: [20, 100, 100] 
+hue_yellow_upper: [30, 255, 255]
+
+min_area: 4
+
+
+red_lower1: [0, 120, 70]
+red_upper1: [10, 255, 255]
+red_lower2: [170, 120, 70]
+red_upper2: [180, 255, 255]
+yellow_lower: [20, 100, 100]
+yellow_upper: [30, 255, 255]
